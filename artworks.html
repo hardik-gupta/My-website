@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artworks</title>
+    </head>
+    <style> 
+    body {
+        margin:0;
+        padding:0;
+        background: white;
+        color: black;
+    }
+
+    body img {
+        margin-top: 50px;
+        margin-left: 7.5%;
+        height: 300px;
+        width: 300px;
+    }
+
+    header{
+        height:100px;
+        background-image:url("images/logos/art.jpg");
+        background-repeat: no-repeat;
+        background-size:25%;
+        background-position: center;
+    }
+    
+    header .logo a{
+        background-image:url("images/logos/logo.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        display:inline-block;
+        height: 74px;
+        text-indent: -9999999px;
+        width:300px;
+    }
+    
+    .gallery img{
+        border: 1px solid white;
+        box-shadow: grey 0 0 10px;
+        transition: transform 1s; 
+    }
+
+    .gallery img:hover {
+        -ms-transform: scale(1.9); /* IE 9 */
+        -webkit-transform: scale(1.9); /* Safari 3-8 */
+         transform: scale(1.7); 
+    }
+
+ </style>
+    <body>
+        <header><li class="logo"><a href="index.html">Hardik Gupta</a></li></header>
+        <div class="gallery">
+            <img src="images/Artworks/todoroki.jpg" alt="todoroki">
+            <img src="images/Artworks/venom.jpg" alt="venom">
+            <img src="images/Artworks/edm.jpg" alt="edm night">
+            <img src="images/Artworks/landscape.jpg" alt="landscape">
+            <img src="images/Artworks/night.jpg" alt="night sky">
+            <img src="images/Artworks/carlesson.jpg" alt="comic">
+            <img src="images/Artworks/TimeManagement.jpg" alt="comic">
+            <img src="images/Artworks/Hotspot.jpg" alt="comic">
+            <img src="images/Artworks/newshoes.png" alt="comic">
+        </div>
+    </body>
+</html>
